@@ -34,6 +34,9 @@ function App() {
           <button onClick={() => setNumOne(9)}>9</button>
           <button onClick={() => setNumOne(0)}> 0</button>
           <button onClick={() => setNumOne(0)}>Clear</button>
+          <button onClick={() => setNumOne(0)}>.</button>
+          
+
         </div>
       </div>
 
@@ -61,6 +64,8 @@ function App() {
           <button onClick={() => setNumTwo(9)}>9</button>
           <button onClick={() => setNumTwo(0)}> 0</button>
           <button onClick={() => setNumTwo(0)}>Clear</button>
+          <button onClick={() => setNumTwo(0)}> 0</button>
+
         </div>
       </div>
       <div className="panel answer">
